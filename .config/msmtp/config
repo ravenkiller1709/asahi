@@ -1,0 +1,12 @@
+account kim@kimkruse.xyz
+host mail.kimkruse.xyz
+port 465
+from kim@kimkruse.xyz
+user kim
+passwordeval "pass kim@kimkruse.xyz"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/kim/.config/msmtp/msmtp.log
+tls_starttls off
+
